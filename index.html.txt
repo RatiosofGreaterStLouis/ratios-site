@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RATIOS | Nonprofit Support & Advocacy</title>
+  <meta
+    name="description"
+    content="RATIOS is a nonprofit dedicated to protecting and supporting vulnerable individuals through advocacy, education, recovery support, and community outreach."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div>
+        <h1 class="logo">RATIOS</h1>
+        <p class="tagline">Support. Safety. Advocacy.</p>
+      </div>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#booking">Booking</a></li>
+          <li><a href="#donate">Donate</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="menuBtn" class="menu-btn">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h2>Protecting vulnerable individuals through advocacy, education, and community support.</h2>
+        <p>
+          RATIOS helps families, caregivers, and communities support people who may be at risk
+          of wandering, abandonment, or being unable to identify themselves.
+        </p>
+        <div class="hero-buttons">
+          <a href="#donate" class="btn primary">Donate</a>
+          <a href="#booking" class="btn secondary">Book Services</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Our Mission</h3>
+        <p>
+          We promote dignity, safety, and accountability by connecting vulnerable individuals
+          and their families with practical tools, education, and outreach.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About RATIOS</h2>
+      <p>
+        RATIOS is a nonprofit organization focused on advocacy, safety planning, support services,
+        and community education for individuals with developmental, cognitive, and communication challenges.
+      </p>
+    </div>
+  </section>
+
+  <section id="programs" class="section alt">
+    <div class="container">
+      <h2>Programs</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Family Education</h3>
+          <p>Training and guidance for caregivers and families.</p>
+        </div>
+        <div class="card">
+          <h3>Community Outreach</h3>
+          <p>Awareness efforts and partnership development.</p>
+        </div>
+        <div class="card">
+          <h3>Safety Support</h3>
+          <p>Practical tools to reduce risk and improve response.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking" class="section">
+    <div class="container">
+      <h2>Book a Consultation</h2>
+      <form class="form">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="tel" placeholder="Phone Number" />
+        <select required>
+          <option value="">Select a Service</option>
+          <option>General Consultation</option>
+          <option>Family Support Meeting</option>
+          <option>Community Presentation</option>
+          <option>Partnership Inquiry</option>
+        </select>
+        <textarea rows="5" placeholder="Tell us what you need..." required></textarea>
+        <button type="submit" class="btn primary">Submit Request</button>
+      </form>
+      <p class="note">This starter form is visual only. Later, it can be connected to Formspree, Netlify Forms, or another form service.</p>
+    </div>
+  </section>
+
+  <section id="donate" class="section donate">
+    <div class="container">
+      <h2>Donate</h2>
+      <p>Your support helps fund outreach, identification tools, education, and advocacy efforts.</p>
+      <a href="#" class="btn secondary">Add Donation Link Here</a>
+    </div>
+  </section>
+
+  <section id="resources" class="section">
+    <div class="container">
+      <h2>Downloadable Resources</h2>
+      <div class="downloads">
+        <a href="#">Family Safety Checklist (PDF)</a>
+        <a href="#">Community Resource Guide (PDF)</a>
+        <a href="#">RATIOS Brochure (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: info@yourdomain.org</p>
+      <p>Phone: (314) 000-0000</p>
+      <p>Location: St. Louis, Missouri</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 RATIOS. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
